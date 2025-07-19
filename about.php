@@ -29,7 +29,6 @@
     <section class="mission">
         <div class="mission-content-wrapper">
             <div class="mission-wrapper">
-                <!-- <h2 class="mission-label">Services</h2>  -->
                 <h3 class="mission-title">Our Philosophy</h3>
                 <hr class="orange-divider">
                 <p class="mission-text">
@@ -140,7 +139,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    
 
     <div class="whitespace"></div>
 
@@ -149,8 +148,8 @@
             <div class="team-card-wrapper">
                 <img src="assets/img/team/ricky-lew.jpeg" alt="Ricky Lew" class="team-card">
                 <div class="team-card-label">
-                    <div>Ricky Lew</div>
-                    <div>Managing Director</div>
+                    <div class="team-names">Ricky Lew</div>
+                    <div class="teams-position">Managing Director</div>
                     <p class="bio-text"> 
                         With over 25 years of experience in the digital space across Asia, Ricky Lew has specialized in fintech, enterprise and digital platforms business; venturing in advertising, social network, payments, open banking, e-commerce, crypto currency, and digital wallets. His notable roles include working with KiplePay, Samsung Electronics, Huawei, Subaru, MigMe, and Hakuhodo Inc, covering government, B2B and the B2C segments.
                     </p>
@@ -160,8 +159,8 @@
             <div class="team-card-wrapper">
                 <img src="assets/img/team/dr-gobinath.jpeg" alt=">Datuk Seri Dr Gobinath "  class="team-card">
                 <div class="team-card-label">
-                    <div>Datuk Seri Dr Gobinath </div>
-                    <div>Director</div>
+                    <div class="team-names">Datuk Seri Dr Gobinath </div>
+                    <div class="teams-position">Director</div>
                     <p class="bio-text">
                         With over 28 years in the technology and management sectors, and also founder of one of the top cybersecurity firm, Meta Splendors; Dr Gobinath's competencies lie in driving innovation within cybersecurity and IT infrastructure, ensuring our clients receive bespoke, high-performance solutions, fostering a culture of continuous improvement the passion for tech-driven transformation.
                     </p>
@@ -171,8 +170,8 @@
             <div class="team-card-wrapper">
                 <img src="assets/img/team/joe-kan.jpeg" alt="Joe Kan"  class="team-card">
                 <div class="team-card-label">
-                    <div>Joe Kan</div>
-                    <div>Director</div>
+                    <div class="team-names">Joe Kan</div>
+                    <div class="teams-position">Director</div>
                     <p class="bio-text">
                         With over 25 years in the technology, finance and management sectors, Joe is also a serial entrepreneur, and the founder of Adventis Corporate Advisory & ODESI eCOB. Joe is a seasoned investor and believes that effective solutions lies in solving the digital transformation gaps for all types of businesses which shares similar requirements in the core operational competencies.
                     </p>
@@ -181,6 +180,7 @@
             </div>
         </div>
     </section>
+    </div>
 </article>
 
 <!-- About Me Modal for Mobile View -->
@@ -196,9 +196,9 @@
 <article class="team-section">
     <div class="team-container">
         <div class="team-header">
-            <p class="team-desc">Team</p>
-            <h2 class="team-desc-title">Other Team Members</h2>
-            <div class="divider"></div>
+            <p class="team-desc slide-in slide-in-left">Team</p>
+            <h2 class="team-desc-title slide-in slide-in-right">Other Team Members</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
             <br>
             <br>
             <div class="team-inner">

@@ -70,8 +70,8 @@
 <article class="black-box services-industries">
     <div class="black-box-container">
         <div class="black-box-header">
-            <h2>Other Services</h2>
-            <div class="divider"></div>
+            <h2 class="slide-in slide-in-right">Other Services</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <br>
@@ -104,8 +104,8 @@
 <article class="industries-section">
     <div class="industries-container">
         <div class="industries-header">
-            <h2>Industries We Support</h2>
-            <div class="divider"></div>
+            <h2 class="slide-in slide-in-left">Industries We Support</h2>
+            <div class="divider slide-in-delayed slide-in-right"></div>
         </div>
 
         <div class="industries-content">
@@ -212,9 +212,9 @@
 <article class="portfolio-section">
     <div class="portfolio-container">
         <div class="portfolio-header">
-            <p>Portfolio</p>
-            <h2>Our proprietary solutions</h2>
-            <div class="divider"></div>
+            <p class="slide-in slide-in-right">Portfolio</p>
+            <h2 class="slide-in slide-in-left">Our proprietary solutions</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="portfolio-content">
@@ -230,24 +230,23 @@
 
     <section class="service">
         <div class="service-cards">
-            <div class="card">
+            <div class="card slide-in slide-in-right">
                 <a href="proprietary-solutions.php#services-section">
                     <img src="assets/img/acc-software.png" alt="Accounting Software">
+                    <span class="card-label">Accounting Software</span>
                 </a>
-                <span class="card-label">Accounting Software</span>
             </div>
-            <div class="card">
+            <div class="card slide-in slide-in-bottom">
                 <a href="proprietary-solutions.php#ew-section">
                     <img src="assets/img/e-wallet.png" alt=">E-Wallet & Payment Engine">
+                    <span class="card-label">E-Wallet & Payment Engine</span>
                 </a>
-
-                <span class="card-label">E-Wallet & Payment Engine</span>
             </div>
-            <div class="card">
+            <div class="card slide-in slide-in-left">
                 <a href="proprietary-solutions.php#lms-section">
                     <img src="assets/img/loan-management.png" alt="Loan Management System">
+                    <span class="card-label">Loan Management System</span>
                 </a>
-                <span class="card-label">Loan Management System</span>
             </div>
         </div>
     </section>

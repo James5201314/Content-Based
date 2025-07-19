@@ -10,11 +10,11 @@ function showCarousel($folderName, $label) {
     echo "  <div class='carousel-container'>";
 
     echo "    <div class='carousel-header'>";
-    echo "      <p class='carousel-desc'>" . strtoupper(htmlspecialchars($folderName)) . "</p>";
-    echo "      <h2 class='carousel-desc-title'>" . htmlspecialchars($label) . "</h2>";
-    echo "      <div class='divider'></div>";
+    echo "      <p class='carousel-desc slide-in slide-in-left'>" . strtoupper(htmlspecialchars($folderName)) . "</p>";
+    echo "      <h2 class='carousel-desc-title slide-in slide-in-right'>" . htmlspecialchars($label) . "</h2>";
+    echo "      <div class='divider slide-in-delayed slide-in-left'></div>";
     if ($folderName === 'clients') {
-        echo "        <p class='carousel-paragraph'>Some of Our Clients</p>";
+        echo "        <p class='carousel-paragraph'></p>";
         echo "        <br>";
     } elseif ($folderName === 'partners') {
         echo "        <p class='carousel-paragraph'>We partner with key industry players who share our passion and trust for efficient and effective solutions delivery.</p>";

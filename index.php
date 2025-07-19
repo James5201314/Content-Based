@@ -10,9 +10,9 @@
 <article class="motto-section">
     <div class="motto-container">
         <div class="motto-header">
-            <p>About Company</p>
-            <h2>Our heart and soul is creativity and innovation.</h2>
-            <div class="divider"></div>
+            <p class="slide-in slide-in-left">About Company</p>
+            <h2 class="slide-in slide-in-right">Our heart and soul is creativity and innovation.</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="motto-content">
@@ -40,25 +40,28 @@
 </article>
 
 
-<aside class="display-wrapper">
-    <section class="service">
-        <h2 class="service-label">Our winning edge</h2>
-        <div class="service-cards">
-            <div class="card">
-                <img src="assets/img/custom-software-dev.png" alt="custom-soft-dev">
-                <span class="card-label">Custom Software Development</span>
-            </div>
-            <div class="card">
-                <img src="assets/img/cybersec.png" alt="cybersec">
-                <span class="card-label">Cybersec</span>
-            </div>
-            <div class="card">
-                <img src="assets/img/digital-trans.png" alt="digital-trans">
-                <span class="card-label">Digital Transformation</span>
-            </div>
+<section class="service">
+    <h2 class="service-label">Our winning edge</h2>
+    <div class="service-cards">
+        <div class="card slide-in slide-in-right">
+            <img src="assets/img/custom-software-dev.png" alt="custom-soft-dev">
+            <span class="card-label">Custom Software Development</span>
         </div>
-    </section>
+        <div class="card slide-in slide-in-bottom">
+            <img src="assets/img/cybersec.png" alt="cybersec">
+            <span class="card-label">Cybersec</span>
+        </div>
+        <div class="card slide-in slide-in-left">
+            <img src="assets/img/digital-trans.png" alt="digital-trans">
+            <span class="card-label">Digital Transformation</span>
+        </div>
+    </div>
+    <div class="centered-button">
+        <a href="services.php" class="cta-button">View Now!</a>
+    </div>
+</section>
 
+<aside class="display-wrapper">
     <section class="testimonial">
         <div class="testimonial-overlay">
             <div class="testimonial-content-wrapper">
@@ -72,9 +75,9 @@
     <section class="advantage">
         <div class="advantage-content-wrapper">
             <div class="advantage-wrapper">
-                <h2 class="advantage-label">Driving Organizational Excellence</h2>
-                <h3 class="advantage-title">Unlock Your Organization's Potential with OCTO</h3>
-                <hr class="orange-divider">
+                <h2 class="advantage-label slide-in slide-in-left">Driving Organizational Excellence</h2>
+                <h3 class="advantage-title slide-in slide-in-right">Unlock Your Organization's Potential with OCTO</h3>
+                <hr class="orange-divider slide-in-delayed slide-in-left">
                 <p class="advantage-text">
                     We provide innovative digital solutions and organizational development strategies to help you achieve sustainable growth and success
                 </p>
@@ -111,9 +114,9 @@
 <article class="portfolio-section">
     <div class="portfolio-container">
         <div class="portfolio-header">
-            <p>Portfolio</p>
-            <h2>Our proprietary solutions</h2>
-            <div class="divider"></div>
+            <p class="slide-in slide-in-left">Portfolio</p>
+            <h2 class="slide-in slide-in-right">Our proprietary solutions</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="portfolio-content">
@@ -129,24 +132,23 @@
 
     <section class="service">
         <div class="service-cards">
-            <div class="card">
+            <div class="card slide-in slide-in-right">
                 <a href="proprietary-solutions.php#services-section">
                     <img src="assets/img/acc-software.png" alt="Accounting Software">
+                    <span class="card-label">Accounting Software</span>
                 </a>
-                <span class="card-label">Accounting Software</span>
             </div>
-            <div class="card">
+            <div class="card slide-in slide-in-bottom">
                 <a href="proprietary-solutions.php#ew-section">
                     <img src="assets/img/e-wallet.png" alt=">E-Wallet & Payment Engine">
+                    <span class="card-label">E-Wallet & Payment Engine</span>
                 </a>
-
-                <span class="card-label">E-Wallet & Payment Engine</span>
             </div>
-            <div class="card">
+            <div class="card slide-in slide-in-left">
                 <a href="proprietary-solutions.php#lms-section">
                     <img src="assets/img/loan-management.png" alt="Loan Management System">
+                    <span class="card-label">Loan Management System</span>
                 </a>
-                <span class="card-label">Loan Management System</span>
             </div>
         </div>
     </section>
@@ -155,8 +157,8 @@
 <article class="industries-section">
     <div class="industries-container">
         <div class="industries-header">
-            <h2>Industries We Support</h2>
-            <div class="divider"></div>
+            <h2 class="slide-in slide-in-right">Industries We Support</h2>
+            <div class="divider  slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="industries-content">

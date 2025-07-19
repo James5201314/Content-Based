@@ -64,8 +64,31 @@ function myFunction(x) {
     x.classList.toggle("change");
 }
 
+function initSlideInAnimations() {
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('slide-in-active');
+            observer.unobserve(entry.target);
+        }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.slide-in').forEach(el => {
+        observer.observe(el);
+    });
+
+    document.querySelectorAll('.slide-in-delayed').forEach(el => {
+        observer.observe(el);
+    });
+
+    
+}
+
 
 document.addEventListener('DOMContentLoaded', function () {
+    initSlideInAnimations();
+
     // ===== Burger Button & Sidebar Toggle =====
     const burgerBtn = document.querySelector('.burger-btn');
     const sidebarNav = document.querySelector('.sidebar-nav');

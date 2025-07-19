@@ -82,11 +82,9 @@
 
 <article class="ew-section" id="ew-section">
     <div class="ew-container">
-        <div>
-            <div class="ew-header">
-                <h2 class="lms-desc-title">E-Wallet & Payment Engine</h2>
-                <div class="divider"></div>
-            </div>
+        <div class="ew-header">
+            <h2 class="lms-desc-title slide-in slide-in-right">E-Wallet & Payment Engine</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="ew-points-wrapper">
@@ -150,8 +148,8 @@
 <article class="lms-section" id="lms-section">
     <div class="lms-container">
         <div class="lms-header">
-            <h2 class="lms-desc-title">Loan Management System (LMS)</h2>
-            <div class="divider"></div>
+            <h2 class="lms-desc-title slide-in slide-in-left">Loan Management System (LMS)</h2>
+            <div class="divider slide-in-delayed slide-in-left"></div>
         </div>
 
         <div class="lms-inner">
